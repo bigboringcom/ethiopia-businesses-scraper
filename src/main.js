@@ -18,7 +18,7 @@ const START_URLS = [
 const NOISE = ['login', 'register', 'add listing', 'contact', 'privacy', 'terms', 'about', 'report', 'home', 'africa-places', 'explore', 'top areas', 'categories'];
 let totalItems = 0;
 
-const proxyConfiguration = await Actor.createProxyConfiguration({ useApifyProxy: true });
+const proxyConfiguration = await Actor.createProxyConfiguration({ useApifyProxy: true, apifyProxyGroups: ['RESIDENTIAL'] });
 
 const crawler = new PlaywrightCrawler({
     proxyConfiguration,
