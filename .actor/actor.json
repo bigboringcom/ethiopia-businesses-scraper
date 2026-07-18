@@ -1,0 +1,29 @@
+{
+    "actorSpecification": 1,
+    "name": "ethiopia-businesses-scraper",
+    "title": "Ethiopia Business Directory Scraper",
+    "description": "Extracts Ethiopian businesses — hospitals, hotels, banks, restaurants with phone, address. Covers Addis Ababa, Dire Dawa.",
+    "version": "1.0",
+    "meta": {
+        "templateId": "project-cheerio-crawler",
+        "generatedBy": "Kiro with Claude Sonnet 4"
+    },
+    "dockerfile": "./Dockerfile",
+    "pricing": {
+        "pricingModel": "PAY_PER_RESULT",
+        "pricePerDatasetItem": 0.005
+    },
+    "storages": {
+        "dataset": "./dataset_schema.json",
+        "keyValueStore": "./key_value_store_schema.json"
+    },
+    "webServerSchema": "./openapi.json",
+    "usesStandbyMode": true,
+    "output": "./output_schema.json",
+    "categories": [
+        "LEAD_GENERATION",
+        "BUSINESS"
+    ],
+    "seoTitle": "Ethiopia Business Directory Scraper | Extract Ethiopian Company Contacts API",
+    "seoDescription": "Extract Ethiopian businesses with phone numbers, addresses, ratings. Covers hospitals, hotels, banks, restaurants across Addis Ababa, Dire Dawa."
+}

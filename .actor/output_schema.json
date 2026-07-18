@@ -1,0 +1,12 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of the scraper",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Extracted Data",
+            "description": "Extracted Ethiopian businesses and contact information.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

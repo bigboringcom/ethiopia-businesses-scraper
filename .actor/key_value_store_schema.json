@@ -1,0 +1,11 @@
+{
+    "actorKeyValueStoreSchemaVersion": 1,
+    "title": "Key-Value Store Schema",
+    "collections": {
+        "logs": {
+            "title": "Actor Logs",
+            "description": "Actor output and execution logs",
+            "keyPrefix": "OUTPUT_"
+        }
+    }
+}

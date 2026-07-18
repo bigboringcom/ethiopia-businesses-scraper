@@ -1,0 +1,21 @@
+{
+    "title": "Ethiopia Business Directory Scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "maxItems": {
+            "title": "Max items",
+            "type": "integer",
+            "description": "Maximum number of businesses to scrape.",
+            "prefill": 100
+        },
+        "maxRunTimeMinutes": {
+            "title": "Max Run Time (Minutes)",
+            "type": "integer",
+            "description": "Gracefully kills the scraper after this many minutes to prevent runaway costs.",
+            "default": 5,
+            "minimum": 1
+        }
+    },
+    "required": []
+}
